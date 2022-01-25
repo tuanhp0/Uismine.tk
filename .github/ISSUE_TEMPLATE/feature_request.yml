@@ -1,0 +1,10 @@
+name: Yêu cầu tính năng
+description: Đề suất ý tưởng cho server
+title: 'Gợi ý: '
+labels: [enhancement]
+body:
+    - type: textarea
+      attributes:
+          label: '**Vui lòng miêu tả thêm nhiều về tính năng mà bạn mong muốn:**'
+      validations:
+          required: true
