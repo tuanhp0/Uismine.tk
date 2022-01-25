@@ -1,0 +1,41 @@
+name: Báo cáo lỗi
+description: Tạo một báo cáo để giúp chúng tôi cải thiện.
+labels: [bug]
+body:
+    - type: textarea
+      attributes:
+          label: Vấn đề bạn gặp phải là gì? (càng chi tiết càng tốt)
+          placeholder: |
+              1.
+              2.
+              3.
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Bạn mong muốn nó được sửa như thế nào?
+          description: Viết mong muốn của bạn hoặc cách sửa nó (nếu bạn biết cách sửa).
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Phiên bản minecraft của bạn
+          description: Viết phiên bản đang chơi của bạn vào đây.
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Phần chơi trong máy chủ?
+          description: Phần chơi mà bạn gặp phải vấn đề (Skyblock, Towny, Survival...)
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Vui lòng sử dụng Pastebin.com, youtube.com, imgur.com để liên kết các tệp sau
+          description: Bỏ qua các tệp này không phải là một tùy chọn. Đây là cách dễ nhất để chẩn đoán đúng vé báo lỗi. Nếu bạn bỏ qua bước này thì vé của bạn rất có thể sẽ bị xóa và bạn sẽ được yêu cầu gửi lại.
+          value: |
+              1. Tệp file bạn đã sửa:
+              2. Video, clip bạn quay lại:
+              3. Ảnh chụp nhanh:
+      validations:
+          required: true
