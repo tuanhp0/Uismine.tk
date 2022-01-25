@@ -33,6 +33,10 @@ body:
       attributes:
           label: Phần chơi trong máy chủ?
           description: Phần chơi mà bạn gặp phải vấn đề (Skyblock, Towny, Survival...)
+          value: |
+              1. Skyblock
+              2. Towny
+              3. Survival
       validations:
           required: true
     - type: textarea
