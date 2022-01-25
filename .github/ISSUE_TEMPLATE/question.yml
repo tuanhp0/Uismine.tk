@@ -2,7 +2,9 @@ name: Thảo luận
 description: Đặt câu hỏi trên diễn đàn thảo luận.
 labels: [Thảo luận]
 body:
-- type: markdown
+- type: textarea
   attributes:
-    value: |
-      Thanks for taking the time to fill out this bug report!
+    label: Name
+- type: textarea
+  attributes:
+    label: Operating System
