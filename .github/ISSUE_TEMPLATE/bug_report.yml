@@ -19,6 +19,12 @@ body:
           required: true
     - type: textarea
       attributes:
+          label: Ingame của bạn là gì?
+          description: Tên nhân vật của bạn trong máy chủ(sẽ có thưởng cho các nhà Fixes).
+      validations:
+          required: true
+    - type: textarea
+      attributes:
           label: Phiên bản minecraft của bạn
           description: Viết phiên bản đang chơi của bạn vào đây.
       validations:
