@@ -1,4 +1,5 @@
 name: Báo cáo lỗi
+title: 'Tên lỗi: '
 description: Tạo một báo cáo để giúp chúng tôi cải thiện.
 labels: [bug]
 body:
